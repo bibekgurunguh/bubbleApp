@@ -24,7 +24,7 @@ const LoginScreen = ({ navigation }: { navigation: Navigation }) => {
   const [user, setUser] = useContext(userContext);
 
   useEffect(() => {
-    console.log('from useEffect', user);
+    // console.log('from useEffect', user);
     if (user.logged) navigation.navigate('MainAppScreen');
   });
 

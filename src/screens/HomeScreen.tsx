@@ -4,6 +4,8 @@ import { StyleSheet, Text, View, ScrollView, Image } from 'react-native';
 import ColorPalette from '../constants/ColorPalette';
 import ImageList from '../components/ImageListComponent';
 
+const bottomFrame = require('../assets/images/bottomFrame.png');
+
 const photos = [
   'https://source.unsplash.com/UH-xs-FizTk',
   'https://source.unsplash.com/ViyA5myhBVw',
@@ -22,7 +24,14 @@ const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <ScrollView style={styles.mainBodyCard}>
-        <Image style={styles.sloganImage} source={{ uri: photos[0] }} />
+        <View>
+          <Image style={styles.sloganImage} source={{ uri: photos[0] }} />
+          <Image
+            style={styles.bottomFrame}
+            source={bottomFrame}
+            tintColor={ColorPalette.keppel}
+          />
+        </View>
         <View style={styles.sloganView}>
           <Text style={styles.slogan}>Bubble for your Babysitting Needs</Text>
           <View style={styles.tags}>
@@ -57,13 +66,18 @@ const styles = StyleSheet.create({
   mainBodyCard: {
     flex: 1,
     backgroundColor: 'white',
-    marginTop: 20,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
   },
   sloganImage: {
     width: '100%',
     height: 300,
+  },
+  bottomFrame: {
+    width: '100%',
+    height: 50,
+    position: 'absolute',
+    bottom: 0,
   },
   sloganView: {
     backgroundColor: ColorPalette.keppel,
