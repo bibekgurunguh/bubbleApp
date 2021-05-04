@@ -16,7 +16,7 @@ Welcome to Bubble App. One solution for all babysitting needs.
 
 Follow these instructions to build the app.
 
-1. Navigate to `src` directory
+1. Navigate to `src` directory `cd src`
 2. Install all dependencies `yarn install`
 3. Start the App `yarn start`
 4. Launch the App on your `Device` or `Emulator/Simulator` using `Expo Go` App
