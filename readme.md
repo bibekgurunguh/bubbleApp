@@ -4,12 +4,12 @@ Welcome to Bubble App. One solution for all babysitting needs.
 </p>
 <h2>Screenshots</h2>
 <div>
-  <img src="./assets/screenshot1.jpg" alt="Login screen" width="250" />
-  <img src="./assets/screenshot2.jpg" alt="Home screen" width="250" />
-  <img src="./assets/screenshot3.jpg" alt="My Sits screen" width="250" />
-  <img src="./assets/screenshot4.jpg" alt="Sitters screen" width="250" />
-  <img src="./assets/screenshot5.jpg" alt="Sitter's Profile screen" width="250" />
-  <img src="./assets/screenshot6.jpg" alt="Profile screen" width="250" />
+  <img src="./assets/screenshot1.jpg" alt="Login screen" width="260" />
+  <img src="./assets/screenshot2.jpg" alt="Home screen" width="260" />
+  <img src="./assets/screenshot3.jpg" alt="My Sits screen" width="260" />
+  <img src="./assets/screenshot4.jpg" alt="Sitters screen" width="260" />
+  <img src="./assets/screenshot5.jpg" alt="Sitter's Profile screen" width="260" />
+  <img src="./assets/screenshot6.jpg" alt="Profile screen" width="260" />
 </div>
 
 <h2>Getting started</h2>
@@ -26,4 +26,7 @@ Follow these instructions to build the app.
 > Email: janet.stevans@siliconrhino.io\
 > Password: 12345
 
-
+## Tech Stack ##
+- TypeScript
+- React Native
+- Expo
