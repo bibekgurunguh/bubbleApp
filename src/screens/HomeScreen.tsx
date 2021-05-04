@@ -24,7 +24,7 @@ const HomeScreen = () => {
       <ScrollView style={styles.mainBodyCard}>
         <Image style={styles.sloganImage} source={{ uri: photos[0] }} />
         <View style={styles.sloganView}>
-          <Text style={styles.slogan}>Bubbles for your Babysitting Needs</Text>
+          <Text style={styles.slogan}>Bubble for your Babysitting Needs</Text>
           <View style={styles.tags}>
             <View style={styles.tag}>
               <Text style={styles.tagText}>Safe</Text>
