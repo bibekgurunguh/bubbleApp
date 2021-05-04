@@ -4,12 +4,12 @@ Welcome to Bubble App. One solution for all babysitting needs.
 </p>
 <h2>Screenshots</h2>
 <div>
-  <img src="./assets/screenshot1.jpg" alt="Login screen" width="300" />
-  <img src="./assets/screenshot2.jpg" alt="Home screen" width="300" />
-  <img src="./assets/screenshot3.jpg" alt="My Sits screen" width="300" />
-  <img src="./assets/screenshot4.jpg" alt="Sitters screen" width="300" />
-  <img src="./assets/screenshot5.jpg" alt="Sitter's Profile screen" width="300" />
-  <img src="./assets/screenshot6.jpg" alt="Profile screen" width="300" />
+  <img src="./assets/screenshot1.jpg" alt="Login screen" width="250" />
+  <img src="./assets/screenshot2.jpg" alt="Home screen" width="250" />
+  <img src="./assets/screenshot3.jpg" alt="My Sits screen" width="250" />
+  <img src="./assets/screenshot4.jpg" alt="Sitters screen" width="250" />
+  <img src="./assets/screenshot5.jpg" alt="Sitter's Profile screen" width="250" />
+  <img src="./assets/screenshot6.jpg" alt="Profile screen" width="250" />
 </div>
 
 <h2>Getting started</h2>
